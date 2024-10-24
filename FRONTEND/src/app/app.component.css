@@ -1,0 +1,12 @@
+#data {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+app-form, app-user-data {
+    width: 50%;
+}

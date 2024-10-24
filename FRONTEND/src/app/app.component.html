@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+</head>
+<body>
+<app-header></app-header>
+<div id="data">
+  <app-form (formSubmitted)="userData = $event"></app-form>
+  <app-user-data [userData]="userData"></app-user-data>
+</div>
+<app-footer></app-footer>
+</body>
+</html>
