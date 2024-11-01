@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'tp02_druenne_oceane' title`, () => {
+  it(`should have the 'tp03_druenne_oceane' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('tp02_druenne_oceane');
+    expect(app.title).toEqual('tp03_druenne_oceane');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, tp02_druenne_oceane');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, tp03_druenne_oceane');
   });
 });

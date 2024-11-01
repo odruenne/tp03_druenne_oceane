@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  title: string = 'TP02-DRUENNE-OCÉANE'
+  title: string = 'TP03-DRUENNE-OCÉANE'
 }
