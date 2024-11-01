@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tp02_druenne_oceane": {
+    "tp03_druenne_oceane": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/tp02_druenne_oceane",
+            "outputPath": "dist/tp03_druenne_oceane",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -56,10 +56,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "tp02_druenne_oceane:build:production"
+              "buildTarget": "tp03_druenne_oceane:build:production"
             },
             "development": {
-              "buildTarget": "tp02_druenne_oceane:build:development"
+              "buildTarget": "tp03_druenne_oceane:build:development"
             }
           },
           "defaultConfiguration": "development"
